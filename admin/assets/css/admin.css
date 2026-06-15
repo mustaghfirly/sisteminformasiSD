@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+}
+
+/* Layout */
+.admin-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 240px;
+    background: #1e3c72;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.sidebar h4 {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+.sidebar a {
+    display: block;
+    padding: 12px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background: rgba(255,255,255,.15);
+}
+
+/* Content */
+.main-content {
+    margin-left: 240px;
+    padding: 25px;
+    width: 100%;
+}
+
+/* Card menu */
+.menu-card {
+    border-radius: 12px;
+    transition: .3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+}
